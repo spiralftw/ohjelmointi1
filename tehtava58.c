@@ -1,3 +1,4 @@
+//git testi
 #include <stdio.h>
 
 char mystrcpy(char* char*);
