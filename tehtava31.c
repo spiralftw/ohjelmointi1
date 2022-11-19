@@ -24,6 +24,8 @@ kertoratkaisu = 0,
 jakoratkaisu = 0,
 kumpi = 0;
 
+while(jakovastaus != -1 || kertovastaus != -1)
+{
 srand (time(NULL));
 
     luku1 = random();
@@ -34,37 +36,28 @@ srand (time(NULL));
 
                 kertoratkaisu = luku1 * luku2;
 
-                    jakoratkaisu = luku1 / luku2;
+                  jakoratkaisu = luku1 / luku2;
 
-                       //while(jakoratkaisu % 1 != 0)
-                           // {luku1 = random();
 
-                               // luku2 = random();}
+
+                    
+
 
                         
-                        
-                        
-
-                       
-
 if (kumpi == 1)
 {
 
     kertovastaus = kertolaskukysymys(luku1,luku2);
 
-    while(kertovastaus != kertoratkaisu && kertovastaus != -1)
+    while(kertovastaus != kertoratkaisu)
 
                             
     kertovastaus = uusinta(luku1,luku2);
 
        
 
-
-
-
-
         if(kertovastaus == -1)
-                {return(0);}
+                return(0);
 
 
 
@@ -73,15 +66,21 @@ if (kumpi == 1)
                             main();
 }
     
-else
+if(kumpi == 0)
 {
 
+
+
     jakovastaus = jakolaskukysymys(luku1,luku2);
+
 
     while(jakovastaus != jakoratkaisu && jakovastaus != -1)
 
                             
     jakovastaus = uusinta(luku1,luku2);
+
+     if(jakovastaus == -1)
+                {return(0);}
 
        
 
@@ -98,13 +97,14 @@ else
                         printf("Oikein!\n");
                             main();
 }
-
+else
+    jakovaikerto();
 
 
 
                             
                     
-
+}
 return(0);
 }
 
@@ -163,6 +163,8 @@ int uusinta(int luku1,int luku2)
 int jakolaskukysymys(int luku1,int luku2)
 {
 int vastaus;
+
+
     printf("Anna luku -1 lopettaaksesi\n");
 
         printf("Paljonko on %d jaettuna %d?\n> ",luku1,luku2);
