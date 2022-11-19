@@ -1,6 +1,3 @@
-//git testi
-
-//moikkamoi
 #include <stdio.h>
 
 char mystrcpy(char* char*);
