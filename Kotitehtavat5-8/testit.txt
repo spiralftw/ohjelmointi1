@@ -1,0 +1,146 @@
+Testi 1
+
+Syota tilinumerosi > 12345
+Syota PIN > 1122
+Valitse toiminto syottamalla numero 1-4
+ 1: Otto
+ 2: Saldo
+ 3: Tapahtumat
+ 4: Liittyman lataus Puheaika
+(Voit sulkea sovelluksen syottamalla numeron 5)
+ > 1
+Syota summa > 130
+Ota 1 x 50e seteleita ja 4 x 20e seteleita.
+(Voit palata valikkoon syottamalla luvun 0)0
+Valitse toiminto syottamalla numero 1-4
+ 1: Otto
+ 2: Saldo
+ 3: Tapahtumat
+ 4: Liittyman lataus Puheaika
+(Voit sulkea sovelluksen syottamalla numeron 5)
+ > 2
+Tilin tilanne
+Tilin saldo:              2300+
+(Voit palata valikkoon syottamalla luvun 0)
+> 0
+Valitse toiminto syottamalla numero 1-4
+ 1: Otto
+ 2: Saldo
+ 3: Tapahtumat
+ 4: Liittyman lataus Puheaika
+(Voit sulkea sovelluksen syottamalla numeron 5)
+ > 3
+Haluatko tiedot?
+1: Naytolle
+2: Kuitille
+(Voit palata valikkoon syottamalla luvun 0)
+> 1
+Oikealla Otolla voisit nyt katsoa tilitapahtumiasi naytolta.
+(Voit palata valikkoon syottamalla luvun 0)
+> 0
+Valitse toiminto syottamalla numero 1-4
+ 1: Otto
+ 2: Saldo
+ 3: Tapahtumat
+ 4: Liittyman lataus Puheaika
+(Voit sulkea sovelluksen syottamalla numeron 5)
+ > 3
+Haluatko tiedot?
+1: Naytolle
+2: Kuitille
+(Voit palata valikkoon syottamalla luvun 0)
+> 2
+Kuittia tulostetaan..., oikealla Otolla voisit nyt katsoa tilitapahtumiasi kuitilta.
+(Voit palata valikkoon syottamalla luvun 0)
+> 0
+Valitse toiminto syottamalla numero 1-4
+ 1: Otto
+ 2: Saldo
+ 3: Tapahtumat
+ 4: Liittyman lataus Puheaika
+(Voit sulkea sovelluksen syottamalla numeron 5)
+ > 4
+(Voit palata valikkoon syottamalla luvun 0)0
+Valitse toiminto syottamalla numero 1-4
+ 1: Otto
+ 2: Saldo
+ 3: Tapahtumat
+ 4: Liittyman lataus Puheaika
+(Voit sulkea sovelluksen syottamalla numeron 5)
+ > 5
+Ohjelman oikeilla syötteillä ohjelma toimii kuten pitää.
+
+Testi 2
+Syota tilinumerosi > a
+PS C:\Users\Allu\Documents\1-Periodi\Ohjelmointi1\Tehtavat>
+
+Syota tilinumerosi > a
+
+korjaus: Tilia ei loydy, tarkista tilinumerosi
+PS C:\Users\Allu\Documents\1-Periodi\Ohjelmointi1\Tehtavat>
+
+Syota tilinumerosi > """"""""""""""""""""""""""""""""""""""""""""""222@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@222222
+Tilia ei loydy, tarkista tilinumerosi
+
+Syota tilinumerosi > aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Tilia ei loydy, tarkista tilinumerosi
+
+Testi 3
+Syota tilinumerosi > 12345
+Syota PIN > 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+Vaara PIN
+Syota PIN uudestaan > a
+Vaara PIN
+Syota PIN uudestaan > d
+Vaara PIN
+Syota PIN uudestaan > qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+Vaara PIN
+Syota PIN uudestaan > 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+Vaara PIN
+Syota PIN uudestaan > 1234
+Vaara PIN
+Syota PIN uudestaan > @@@
+Vaara PIN
+Syota PIN uudestaan > 1122
+Vaara PIN
+Syota PIN uudestaan > 1122
+Vaara PIN
+Syota PIN uudestaan > 1122
+Vaara PIN
+Syota PIN uudestaan >
+
+Testi 4
+Valitse toiminto syottamalla numero 1-4
+ 1: Otto
+ 2: Saldo
+ 3: Tapahtumat
+ 4: Liittyman lataus Puheaika
+(Voit sulkea sovelluksen syottamalla numeron 5)
+ > 1
+Syota summa > 23
+Ota -1 x 50e seteleita ja 3 x 20e seteleita.
+(Voit palata valikkoon syottamalla luvun 0)o
+PS C:\Users\Allu\Documents\1-Periodi\Ohjelmointi1\Tehtavat> cd "c:\Users\Allu\Documents\1-Periodi\Ohjelmointi1\Tehtavat"
+
+Testi 5
+Valitse toiminto syottamalla numero 1-4
+ 1: Otto
+ 2: Saldo
+ 3: Tapahtumat
+ 4: Liittyman lataus Puheaika
+(Voit sulkea sovelluksen syottamalla numeron 5)
+ > 1
+Syota summa > 500
+Ota 10 x 50e seteleita ja 0 x 20e seteleita.
+(Voit palata valikkoon syottamalla luvun 0)0
+Valitse toiminto syottamalla numero 1-4
+ 1: Otto
+ 2: Saldo
+ 3: Tapahtumat
+ 4: Liittyman lataus Puheaika
+(Voit sulkea sovelluksen syottamalla numeron 5)
+ > 2
+Tilin tilanne
+Tilin saldo:              2300+
+(Voit palata valikkoon syottamalla luvun 0)
+>
