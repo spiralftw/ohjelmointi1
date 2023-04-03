@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+#define MAX_KOKO 32
+
+int main() {
+
+  char sana[MAX_KOKO];
+  char rivi[MAX_KOKO];
+  char *englanti, *suomi;
+  int n = 0;
+
+  printf("Syötä käännettävä sana: ");
+  scanf("%s", sana);
+
+  FILE *fp = fopen("sanakirja.txt", "r");
+  if (fp == NULL) {
+    printf("Virhe: tiedostoa ei voida avata.\n");
+    return 1;
+  }
+
+  while (fgets(rivi, MAX_KOKO, fp) != NULL) {
+    suomi = strtok(rivi, ";");
+    englanti = strtok(NULL, ";");
+
+    int fi_koko = strcspn(suomi,"\n");
+    int en_koko =strcspn(englanti,"\n");
+
+    if (strncmp(sana, englanti, en_koko) == 0 || strncmp(sana, suomi, fi_koko) == 0) {
+      printf("Käännös: %s\n", (strncmp(sana, englanti, en_koko) == 0) ? suomi : englanti);
+      n = 1;
+      break;
+    }
+  }
+
+  if(n != 1) {
+    printf("Sanaa %s ei loytynyt sanakirjasta",sana);
+  }
+
+  fclose(fp);
+  return 0;
+}
